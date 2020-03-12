@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sc.gestiononglets.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="add_box"
+        android:icon="@drawable/ic_add_box"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/item1"
+        android:orderInCategory="100"
+        android:title="aimer"
+        android:icon="@drawable/ic_coeur"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/item2"
+        android:orderInCategory="100"
+        android:title="notification"
+        android:icon="@drawable/ic_cloche"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>
